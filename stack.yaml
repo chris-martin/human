@@ -1,29 +1,5 @@
 resolver: lts-9.0
 
 packages:
-  - accumulate
-  - acme-truthy
-  - alternating-characters
-  - atomic-modify
-  - decimal-text
-  - elephant
-  - encodings
-  - exception-records
-  - exponent-dag
-  - gadt-constraint-record-example
   - human-parse
   - human-text
-  - irs-forms
-  - list-monoids
-  - mvar-lock
-  - non-threaded-fork-failure
-  - partial-ord
-  - power-of-two
-  - tchan-log-demo
-
-extra-deps:
-  - hedgehog-0.5
-
-nix:
-  packages:
-    - zlib
